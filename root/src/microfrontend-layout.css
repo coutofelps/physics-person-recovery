@@ -1,4 +1,3 @@
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,6 @@
     font-family: sans-serif;
 }
 
-/* Estilos para o corpo e HTML */
 body, html {
     height: 100%;
     display: flex;
@@ -17,7 +15,6 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para a tela do telefone */
 .super-app .phone-screen {
     width: 360px;
     height: 780px;
@@ -30,7 +27,6 @@ body, html {
     align-items: center;
 }
 
-/* Estilos para o cabeçalho */
 .super-app header {
     width: 100%;
     display: flex;
@@ -43,7 +39,6 @@ body, html {
     color: white;
 }
 
-/* Estilos para o botão de voltar */
 .super-app header .back-button {
     display: flex;
     align-items: center;
@@ -65,7 +60,6 @@ body, html {
     font-size: 12px;
 }
 
-/* Estilos para a mensagem de boas-vindas */
 .super-app header .welcome-message {
     text-align: left;
     width: 100%;
@@ -78,7 +72,6 @@ body, html {
     margin-bottom: 30px;
 }
 
-/* Estilos para os botões de ação */
 .super-app .super-app.action-buttons {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -99,7 +92,6 @@ body, html {
     gap: 10px;
 }
 
-/* Estilos para os botões de navegação */
 .super-app .action-buttons button, .super-app .navigation-buttons button {
     padding: 10px;
     border-radius: 10px;
