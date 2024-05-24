@@ -1,8 +1,9 @@
 import "./root.css";
+import ErrorIcon from "./not-found-error-icon.png";
 
 export default function Root(props) {
   return <>
-    <main>
+    <main className="new-renegotiations">
       <div className="phone-screen">
         <header>
           <button className="back-button">
@@ -12,18 +13,22 @@ export default function Root(props) {
           </button>
         </header>
 
-        <section>
-          <div className="not-found-image">
+        <section className="content">
+          <div className="not-found-wrapper">
+            <div className="image">
+              <img src={ErrorIcon} alt="Error Icon Image" />
+            </div>
 
+            <span className="text">
+              No momento, não encontramos contratos disponíveis para renegociar
+            </span>
           </div>
 
-          <span className="text">
-            No momento, não encontramos contratos disponíveis para renegociar
-          </span>
-
-          <button>
-            Ir para a tela inicial
-          </button>
+          <div className="back-button-wrapper">
+            <button>
+              Ir para a tela inicial
+            </button>
+          </div>
         </section>
       </div>
     </main>

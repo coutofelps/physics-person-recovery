@@ -1,12 +1,9 @@
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
-/* Estilos para o corpo e HTML */
 body, html {
     height: 100%;
     display: flex;
@@ -17,8 +14,7 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para a tela do telefone */
-.phone-screen {
+.new-renegotiations .phone-screen {
     width: 360px;
     height: 780px;
     background-color: #fff;
@@ -30,30 +26,78 @@ body, html {
     align-items: center;
 }
 
-/* Estilos para o cabeçalho */
-header {
+.new-renegotiations header {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 20px;
-    color: white;
+    color: grey;
 }
 
-/* Estilos para o botão de voltar */
-.back-button {
+.new-renegotiations header .back-button {
     display: flex;
     align-items: center;
     justify-content: center;
     background: none;
     border: none;
-    color: white;
+    color: grey;
     font-size: 20px;
     margin-right: 10px;
     cursor: pointer;
 }
 
-.back-button .icon {
+.new-renegotiations header .back-button .icon {
     font-size: 15px;
+}
+
+.new-renegotiations header .back-button h1 {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.new-renegotiations .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-renegotiations .content .not-found-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.new-renegotiations .content .not-found-wrapper .image {}
+
+.new-renegotiations .content .not-found-wrapper .text {
+    font-size: 14px;
+    font-weight: 900;
+    padding: 40px 20px;
+    color: #383838;
+    line-height: 20px;
+}
+
+.new-renegotiations .back-button-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.new-renegotiations .back-button-wrapper button {
+    color: #fff;
+    background-color: #ff6600;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
 }
