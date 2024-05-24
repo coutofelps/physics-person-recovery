@@ -1,15 +1,48 @@
 <single-spa-router>
-  <main>
-    <route default>
-      <application name="@single-spa/welcome"></application>
-    </route>
+  <route default>
+    <main>
+      <div class="phone-screen">
+        <header>
+          <button class="back-button">
+            <span class="icon">&lt;</span>
+            
+            <h1>renegociação</h1>
+          </button>
+  
+            <section class="welcome-message">
+              <p>Olá, Marcos Felipe!</p>
+              <p>Você não tem contratos disponíveis para renegociação ;)</p>
+          </section>
+        </header>
+  
+        <section class="action-buttons">
+            <button>consulte boletos</button>
+            <button>parcelas em atraso</button>
+            <button>quite tudo</button>
+        </section>
+  
+        <section class="navigation-buttons">
+            <button>
+              <span class="text">nova renegociação</span>
+              <span class="icon">&gt;</span>
+            </button>
     
-    <route path="/new-renegotiations">
-      <application name="@physics-person-recovery/new-renegotiations"></application>
-    </route>
+            <button>
+              <span class="text">minhas renegociações</span>
+              <span class="icon">&gt;</span>
+            </button>
+        </section>
+      </div>
+    </main>
+  
+    <div class="legend">Modelo: S23+</div>
+  </route>
 
-    <route path="/my-renegotiations">
-      <application name="@physics-person-recovery/my-renegotiations"></application>
-    </route>
-  </main>
+  <route path="/new-renegotiations">
+    <application name="@physics-person-recovery/new-renegotiations"></application>
+  </route>
+
+  <route path="/my-renegotiations">
+    <application name="@physics-person-recovery/my-renegotiations"></application>
+  </route>
 </single-spa-router>

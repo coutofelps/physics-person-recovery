@@ -1,0 +1,140 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Estilos para o corpo e HTML */
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para a tela do telefone */
+.phone-screen {
+    width: 360px;
+    height: 780px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #ff6600;
+    padding: 20px 20px 40px 20px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+}
+
+/* Estilos para o botão de voltar */
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.back-button .icon {
+    font-size: 15px;
+}
+
+.back-button h1 {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+/* Estilos para a mensagem de boas-vindas */
+.welcome-message {
+    text-align: left;
+    width: 100%;
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.welcome-message p:first-child {
+    margin-bottom: 30px;
+}
+
+/* Estilos para os botões de ação */
+.action-buttons {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-top: -20px;
+    background-color: #fff;
+}
+
+.action-buttons, .navigation-buttons {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-buttons button, .navigation-buttons button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.action-buttons button {
+    font-size: 12px;
+    height: 80px;
+}
+
+/* Estilos para os botões de navegação */
+.navigation-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navigation-buttons button {
+    background-color: #fff;
+    border: 1px solid #cecece;
+    color: grey;
+    font-size: 12px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+/* Estilos para a legenda */
+.legend {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+}
