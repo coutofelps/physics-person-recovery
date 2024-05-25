@@ -72,7 +72,7 @@ body, html {
     margin-bottom: 30px;
 }
 
-.super-app .super-app.action-buttons {
+.super-app .action-buttons {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     margin-top: -20px;
