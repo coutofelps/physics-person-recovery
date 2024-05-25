@@ -5,7 +5,6 @@ import { Router, NavigationStart } from '@angular/router';
 
 import { singleSpaAngular, getSingleSpaExtraProviders } from 'single-spa-angular';
 
-
 import { AppModule } from './app/app.module';
 import { singleSpaPropsSubject } from './single-spa/single-spa-props';
 
