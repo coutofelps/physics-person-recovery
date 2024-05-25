@@ -1,7 +1,12 @@
 import "./root.css";
-import ErrorIcon from "./not-found-error-icon.png";
+import * as sigleSpa from "single-spa";
+import ErrorIcon from "./no-proposal-found-icon.png";
 
 export default function Root(props) {
+  const routeChange = () =>{ 
+    sigleSpa.navigateToUrl('/')
+  }
+
   return <>
     <main className="new-renegotiations">
       <div className="phone-screen">
@@ -15,7 +20,7 @@ export default function Root(props) {
 
         <section className="content">
           <div className="not-found-wrapper">
-            <div className="image">
+            <div className="image-wrapper">
               <img src={ErrorIcon} alt="Error Icon Image" />
             </div>
 
@@ -25,7 +30,7 @@ export default function Root(props) {
           </div>
 
           <div className="back-button-wrapper">
-            <button>
+            <button onClick={routeChange}>
               Ir para a tela inicial
             </button>
           </div>

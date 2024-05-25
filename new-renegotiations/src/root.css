@@ -73,7 +73,13 @@ body, html {
     padding: 30px 0;
 }
 
-.new-renegotiations .content .not-found-wrapper .image {}
+.new-renegotiations .content .not-found-wrapper .image-wrapper {
+    max-width: 50px;
+}
+
+.new-renegotiations .content .not-found-wrapper .image-wrapper img {
+    width: 100%;
+}  
 
 .new-renegotiations .content .not-found-wrapper .text {
     font-size: 14px;

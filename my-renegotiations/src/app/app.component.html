@@ -1,25 +1,26 @@
-<main className="my-renegotiations">
-	<div className="phone-screen">
+<main class="my-renegotiations">
+	<div class="phone-screen">
 		<header>
-			<button className="back-button">
-				<span className="icon">&lt;</span>
+			<button class="back-button">
+				<span class="icon">&lt;</span>
 				
 				<h1>renegociação</h1>
 			</button>
 		</header>
 
-		<section className="content">
-			<div className="not-found-wrapper">
-				<div className="image">
+		<section class="content">
+			<div class="not-found-wrapper">
+				<div class="image-wrapper">
+					<img [src]="imageUrl" alt="Error Icon Image" />
 				</div>
 
-				<span className="text">
-					No momento, não encontramos contratos disponíveis para renegociar
+				<span class="text">
+					No momento, você não tem nenhuma renegociação ativa
 				</span>
 			</div>
 
-			<div className="back-button-wrapper">
-				<button>
+			<div class="back-button-wrapper">
+				<button routerLink="/">
 					Ir para a tela inicial
 				</button>
 			</div>
