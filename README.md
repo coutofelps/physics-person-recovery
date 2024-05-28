@@ -117,7 +117,7 @@ Em terminais separados, execute:
 
 ```bash
 cd ../root
-ng s --project root --disable-host-check --port 8081 --li
+npm start
 ```
 
 ```bash
