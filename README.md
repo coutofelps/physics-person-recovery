@@ -121,13 +121,18 @@ ng s --project root --disable-host-check --port 8081 --li
 ```
 
 ```bash
-cd ../my-renegotiations
-ng s --project my-renegotiations --disable-host-check --port 8081 --li
+cd ../super-app
+ng s --project super-app --disable-host-check --port 9001 --li
 ```
 
 ```bash
 cd ../new-renegotiations
 npm start
+```
+
+```bash
+cd ../my-renegotiations
+ng s --project my-renegotiations --disable-host-check --port 8081 --li
 ```
 
 ### Passo 3: Acesse a aplicação
